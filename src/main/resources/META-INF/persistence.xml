@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="HermesPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>Hermes_Connection</jta-data-source>
+    <class>hermes.entidades.FornecedorInfo</class>
+    <class>hermes.entidades.MecanicoInfo</class>
+    <class>hermes.entidades.OrdemDeFabricacao</class>
+    <class>hermes.entidades.TipoProduto</class>
+    <class>hermes.entidades.OrdemDeCompra</class>
+    <class>hermes.entidades.ParcelaOrdemVenda</class>
+    <class>hermes.entidades.Estoque</class>
+    <class>hermes.entidades.ItemOrdemVenda</class>
+    <class>hermes.entidades.MecanicoOrdemFabricacao</class>
+    <class>hermes.entidades.Produto</class>
+    <class>hermes.entidades.ItemExternoOrdemVenda</class>
+    <class>hermes.entidades.ItemOrdemServico</class>
+    <class>hermes.entidades.ItemExternoOrdemFabricacao</class>
+    <class>hermes.entidades.Aplicacao</class>
+    <class>hermes.entidades.Mecanico</class>
+    <class>hermes.entidades.ItemOrdemFabricacao</class>
+    <class>hermes.entidades.Vendedor</class>
+    <class>hermes.entidades.VendedorInfo</class>
+    <class>hermes.entidades.MecanicoOrdemServico</class>
+    <class>hermes.entidades.ClienteInfo</class>
+    <class>hermes.entidades.Unidade</class>
+    <class>hermes.entidades.Estados</class>
+    <class>hermes.entidades.EstoqueProdutoFabricado</class>
+    <class>hermes.entidades.Equipamento</class>
+    <class>hermes.entidades.ParcelaOrdemCompra</class>
+    <class>hermes.entidades.ItemExternoOrdemServico</class>
+    <class>hermes.entidades.ParcelaOdemDeServico</class>
+    <class>hermes.entidades.Cidades</class>
+    <class>hermes.entidades.Fornecedor</class>
+    <class>hermes.entidades.Descricao</class>
+    <class>hermes.entidades.ProdutoFabricado</class>
+    <class>hermes.entidades.ItemFabricadoOrdemVenda</class>
+    <class>hermes.entidades.Cliente</class>
+    <class>hermes.entidades.OrdemDeServico</class>
+    <class>hermes.entidades.OrdemDeVenda</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+  </persistence-unit>
+</persistence>
