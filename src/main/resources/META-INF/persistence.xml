@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="HermesPU" transaction-type="JTA">
-    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <jta-data-source>Hermes_Connection</jta-data-source>
     <class>hermes.entidades.FornecedorInfo</class>
     <class>hermes.entidades.MecanicoInfo</class>
@@ -39,5 +38,6 @@
     <class>hermes.entidades.OrdemDeServico</class>
     <class>hermes.entidades.OrdemDeVenda</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
   </persistence-unit>
 </persistence>
